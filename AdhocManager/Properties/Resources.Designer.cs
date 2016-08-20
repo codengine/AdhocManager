@@ -185,5 +185,41 @@ namespace AdhocManager.Properties {
                 return ResourceManager.GetString("MainForm_UpdateAdapters_Exception", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IP:.
+        /// </summary>
+        internal static string NetworkAdapterNode_IP {
+            get {
+                return ResourceManager.GetString("NetworkAdapterNode_IP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Received:.
+        /// </summary>
+        internal static string NetworkAdapterNode_Received {
+            get {
+                return ResourceManager.GetString("NetworkAdapterNode_Received", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send:.
+        /// </summary>
+        internal static string NetworkAdapterNode_Send {
+            get {
+                return ResourceManager.GetString("NetworkAdapterNode_Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Speed:.
+        /// </summary>
+        internal static string NetworkAdapterNode_Speed {
+            get {
+                return ResourceManager.GetString("NetworkAdapterNode_Speed", resourceCulture);
+            }
+        }
     }
 }

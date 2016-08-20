@@ -24,13 +24,13 @@ namespace AdhocManager.Networking
             var statistics = adapter.GetIPStatistics();
             if (statistics.BytesSent > 0)
             {
-                nodes.Add(new TreeNode("Sent: " + StringUtils.ReadableFileSize(statistics.BytesSent),
+                nodes.Add(new TreeNode(AdhocManager.Properties.Resources.NetworkAdapterNode_Send + " " + StringUtils.ReadableFileSize(statistics.BytesSent),
                     NetworkIcons.Up, NetworkIcons.Up));
             }
 
             if (statistics.BytesReceived > 0)
             {
-                nodes.Add(new TreeNode("Received: " + StringUtils.ReadableFileSize(statistics.BytesReceived),
+                nodes.Add(new TreeNode(AdhocManager.Properties.Resources.NetworkAdapterNode_Received + " " + StringUtils.ReadableFileSize(statistics.BytesReceived),
                     NetworkIcons.Down, NetworkIcons.Down));
             }
         }
@@ -39,7 +39,7 @@ namespace AdhocManager.Networking
         {
             if (adapter.Speed > 0)
             {
-                nodes.Add(new TreeNode("Speed: " + StringUtils.ReadableFileSize(adapter.Speed, 0, false) + "ps",
+                nodes.Add(new TreeNode(AdhocManager.Properties.Resources.NetworkAdapterNode_Speed + " " + StringUtils.ReadableFileSize(adapter.Speed, 0, false) + "ps",
                     NetworkIcons.Gauge, NetworkIcons.Gauge));
             }
         }
@@ -76,7 +76,7 @@ namespace AdhocManager.Networking
             foreach (var ip in adapter.GetIPProperties().UnicastAddresses)
             {
                 if (ip.Address.AddressFamily != AddressFamily.InterNetwork) continue;
-                nodes.Add(new TreeNode("IP: " + ip.Address, NetworkIcons.Info, NetworkIcons.Info));
+                nodes.Add(new TreeNode(AdhocManager.Properties.Resources.NetworkAdapterNode_IP + " " + ip.Address, NetworkIcons.Info, NetworkIcons.Info));
             }
         }
 
