@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MainForm_Start_SettingsError" xml:space="preserve">
-    <value>Unable to setup the SSID and password, please check the process output</value>
+    <value>Konnte die SSID und das Passwort nicht einrichten. Bitte Ausgabe überprüfen.</value>
   </data>
   <data name="MainForm_Start_StartHostednetworkError" xml:space="preserve">
-    <value>Unable to start the AdHoc Network, please check the process output</value>
+    <value>AdHoc Netzwerk konnt nicht gestartet werden. Bitte Ausgabe überprüfen.</value>
   </data>
   <data name="MainForm_UnhandledException" xml:space="preserve">
-    <value>Unhandled Exception</value>
+    <value>Unbehandelte Ausnahme</value>
   </data>
   <data name="MainForm_Error" xml:space="preserve">
-    <value>Error</value>
+    <value>Fehler</value>
   </data>
   <data name="MainForm_Stop_StopHostednetworkError" xml:space="preserve">
-    <value>Unable to stop the AdHoc Network, please check the process output</value>
+    <value>AdHoc Netzwerk konnt nicht gestoppt werden. Bitte Ausgabe überprüfen.</value>
   </data>
   <data name="MainForm_Start_SSIDEmpty" xml:space="preserve">
-    <value>Please enter a valid SSID</value>
+    <value>Bitte gültige SSID eingeben</value>
   </data>
   <data name="MainForm_UpdateAdapters_Exception" xml:space="preserve">
-    <value>Unable to load the network adapter list</value>
+    <value>Konnte Liste der Netzwerk Adapter nicht laden</value>
   </data>
   <data name="MainForm_Exit_Dialog" xml:space="preserve">
-    <value>Do you want to stop any existing AdHoc Network?</value>
+    <value>Alle bestehenden AdHoc Netzwerke stoppen?</value>
   </data>
   <data name="MainForm_Question" xml:space="preserve">
-    <value>Question</value>
+    <value>Frage</value>
   </data>
   <data name="MainForm_Start_Tooltip" xml:space="preserve">
-    <value>Configures and starts the Hosted Network</value>
+    <value>Konfiguriert und startet das gehostete Netzwerk</value>
   </data>
   <data name="MainForm_Stop_Tooltip" xml:space="preserve">
-    <value>Stops the Hosted Network</value>
+    <value>Stoppt das gehostete Netzwerk</value>
   </data>
   <data name="MainForm_Connections_Tooltip" xml:space="preserve">
-    <value>Launches the Windows Network Connection Application</value>
+    <value>Startet das Windows Netzwerkverbindung Menü</value>
   </data>
   <data name="MainForm_SSID_Tooltip" xml:space="preserve">
-    <value>Set a SSID (max. 32 chars) here or leave empty</value>
+    <value>SSID (max. 32 Zeichen) eingeben oder leer lassen</value>
   </data>
   <data name="MainForm_Password_Tooltip" xml:space="preserve">
-    <value>Might be empty, but it is not recommended</value>
+    <value>Kann leer gelassen werden (nicht empfohlen)</value>
   </data>
   <data name="NetworkAdapterNode_IP" xml:space="preserve">
     <value>IP:</value>
   </data>
   <data name="NetworkAdapterNode_Received" xml:space="preserve">
-    <value>Received:</value>
+    <value>Empfangen:</value>
   </data>
   <data name="NetworkAdapterNode_Send" xml:space="preserve">
-    <value>Send:</value>
+    <value>Gesendet:</value>
   </data>
   <data name="NetworkAdapterNode_Speed" xml:space="preserve">
-    <value>Speed:</value>
+    <value>Geschwindigkeit:</value>
   </data>
 </root>
