@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnConnections.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
@@ -133,75 +137,6 @@
   </data>
   <data name="btnConnections.Text" xml:space="preserve">
     <value>Manage Connections...</value>
-  </data>
-  <data name="btnStart.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AdhocManager</value>
-  </data>
-  <data name="mainMenu.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="toolStripMenuItem3.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
-  <data name="mnuGithub.Text" xml:space="preserve">
-    <value>Github</value>
-  </data>
-  <data name="mnuGithubWiki.Text" xml:space="preserve">
-    <value>Wiki</value>
-  </data>
-  <data name="mnuGithubProjectPage.Text" xml:space="preserve">
-    <value>Project Page</value>
-  </data>
-  <data name="mnuGithubIssues.Text" xml:space="preserve">
-    <value>Report a Bug</value>
-  </data>
-  <data name="commandsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Commands</value>
-  </data>
-  <data name="showWLANInterfacesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show WLAN Interfaces</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="mnuExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="mnuRefreshAdapters.Text" xml:space="preserve">
-    <value>Refresh Network Connections</value>
-  </data>
-  <data name="mnuRefreshAdapters.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>F5</value>
-  </data>
-  <data name="mnuStopNetwork.Text" xml:space="preserve">
-    <value>Stop Network</value>
-  </data>
-  <data name="mnuStartNetwork.Text" xml:space="preserve">
-    <value>Start Network</value>
-  </data>
-  <data name="grpNetworkDevices.Text" xml:space="preserve">
-    <value>Network Connections (F5 to refresh)</value>
-  </data>
-  <data name="grpCmdOutput.Text" xml:space="preserve">
-    <value>Output</value>
-  </data>
-  <data name="cmdOutput.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="grpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="lblSSID.Text" xml:space="preserve">
-    <value>SSID</value>
-  </data>
-  <data name="lblPasswd.Text" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="btnStop.Text" xml:space="preserve">
-    <value>Stop</value>
   </data>
   <data name="&gt;&gt;btnConnections.Name" xml:space="preserve">
     <value>btnConnections</value>
@@ -227,6 +162,9 @@
   <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
   <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
     <value>btnStop</value>
   </data>
@@ -251,6 +189,69 @@
   <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="mnuWebsite.Text" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="mnuGithubWiki.Text" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="mnuGithubProjectPage.Text" xml:space="preserve">
+    <value>Project Page</value>
+  </data>
+  <data name="mnuGithubIssues.Text" xml:space="preserve">
+    <value>Report a Bug</value>
+  </data>
+  <data name="mnuGithub.Text" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="showWLANInterfacesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show WLAN Interfaces</value>
+  </data>
+  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
+    <value>Show WLAN Drivers</value>
+  </data>
+  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
+    <value>Show AdHoc Networks</value>
+  </data>
+  <data name="commandsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="mnuManageConnections.Text" xml:space="preserve">
+    <value>Manage Connections...</value>
+  </data>
+  <data name="mnuRefreshAdapters.Text" xml:space="preserve">
+    <value>Refresh Network Connections</value>
+  </data>
+  <data name="mnuRefreshAdapters.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="mnuStopNetwork.Text" xml:space="preserve">
+    <value>Stop Network</value>
+  </data>
+  <data name="mnuStartNetwork.Text" xml:space="preserve">
+    <value>Start Network</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="mainMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="cmdOutput.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpCmdOutput.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
   <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
     <value>btnStart</value>
   </data>
@@ -274,6 +275,9 @@
   </data>
   <data name="lblPasswd.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="lblPasswd.Text" xml:space="preserve">
+    <value>Password</value>
   </data>
   <data name="&gt;&gt;lblPasswd.Name" xml:space="preserve">
     <value>lblPasswd</value>
@@ -320,6 +324,9 @@
   <data name="lblSSID.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="lblSSID.Text" xml:space="preserve">
+    <value>SSID</value>
+  </data>
   <data name="&gt;&gt;lblSSID.Name" xml:space="preserve">
     <value>lblSSID</value>
   </data>
@@ -360,10 +367,13 @@
     <value>12, 27</value>
   </data>
   <data name="grpSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 101</value>
+    <value>460, 101</value>
   </data>
   <data name="grpSettings.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="grpSettings.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="&gt;&gt;grpSettings.Name" xml:space="preserve">
     <value>grpSettings</value>
@@ -380,21 +390,8 @@
   <metadata name="cmdOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="cmdOutput.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 8.25pt</value>
-  </data>
-  <data name="cmdOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cmdOutput.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="cmdOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>567, 295</value>
-  </data>
-  <data name="cmdOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="grpCmdOutput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="&gt;&gt;cmdOutput.Name" xml:space="preserve">
     <value>cmdOutput</value>
@@ -409,10 +406,10 @@
     <value>0</value>
   </data>
   <data name="grpCmdOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 27</value>
+    <value>12, 369</value>
   </data>
   <data name="grpCmdOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>579, 321</value>
+    <value>460, 320</value>
   </data>
   <data name="grpCmdOutput.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -429,6 +426,39 @@
   <data name="&gt;&gt;grpCmdOutput.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="cmdOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cmdOutput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cmdOutput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 8.25pt</value>
+  </data>
+  <data name="cmdOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cmdOutput.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="cmdOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 294</value>
+  </data>
+  <data name="cmdOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmdOutput.Name" xml:space="preserve">
+    <value>cmdOutput</value>
+  </data>
+  <data name="&gt;&gt;cmdOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOutput.Parent" xml:space="preserve">
+    <value>grpCmdOutput</value>
+  </data>
+  <data name="&gt;&gt;cmdOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -437,7 +467,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        DwAAAk1TRnQBSQFMAgEBCQEAARABAQEQAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DwAAAk1TRnQBSQFMAgEBCQEAASABAQEgAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -505,20 +535,8 @@
         AYABAQL/AgABgAEDAcABAwL/AT8B/wGAAQMB+AEfBP8BgAEDBv8BgAEDAv8L
 </value>
   </data>
-  <data name="networkDevices.ImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="networkDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
-  </data>
-  <data name="networkDevices.SelectedImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="networkDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 188</value>
-  </data>
-  <data name="networkDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="grpNetworkDevices.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="&gt;&gt;networkDevices.Name" xml:space="preserve">
     <value>networkDevices</value>
@@ -536,10 +554,13 @@
     <value>12, 134</value>
   </data>
   <data name="grpNetworkDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 214</value>
+    <value>460, 229</value>
   </data>
   <data name="grpNetworkDevices.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="grpNetworkDevices.Text" xml:space="preserve">
+    <value>Network Connections (F5 to refresh)</value>
   </data>
   <data name="&gt;&gt;grpNetworkDevices.Name" xml:space="preserve">
     <value>grpNetworkDevices</value>
@@ -553,9 +574,63 @@
   <data name="&gt;&gt;grpNetworkDevices.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="networkDevices.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="networkDevices.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="networkDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="networkDevices.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="networkDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 203</value>
+  </data>
+  <data name="networkDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;networkDevices.Name" xml:space="preserve">
+    <value>networkDevices</value>
+  </data>
+  <data name="&gt;&gt;networkDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;networkDevices.Parent" xml:space="preserve">
+    <value>grpNetworkDevices</value>
+  </data>
+  <data name="&gt;&gt;networkDevices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>120, 17</value>
   </metadata>
+  <data name="mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 24</value>
+  </data>
+  <data name="mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
   <data name="mnuStartNetwork.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
   </data>
@@ -574,35 +649,29 @@
   <data name="mnuManageConnections.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
   </data>
-  <data name="mnuManageConnections.Text" xml:space="preserve">
-    <value>Manage Connections...</value>
-  </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>247, 6</value>
   </data>
   <data name="mnuExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 22</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+  <data name="commandsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
   </data>
   <data name="mnuCmdsListAdhocNetworks.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
-    <value>Show AdHoc Networks</value>
-  </data>
   <data name="mnuCmdsListWirelessDevices.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
-  </data>
-  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
-    <value>Show WLAN Drivers</value>
   </data>
   <data name="showWLANInterfacesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 22</value>
   </data>
-  <data name="commandsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 20</value>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="mnuGithub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
   </data>
   <data name="mnuGithubIssues.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 22</value>
@@ -613,41 +682,11 @@
   <data name="mnuGithubWiki.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 22</value>
   </data>
-  <data name="mnuGithub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 6</value>
   </data>
   <data name="mnuWebsite.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 22</value>
-  </data>
-  <data name="mnuWebsite.Text" xml:space="preserve">
-    <value>Website</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 20</value>
-  </data>
-  <data name="mainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="mainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>924, 24</value>
-  </data>
-  <data name="mainMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
-    <value>mainMenu</value>
-  </data>
-  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mainMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -656,7 +695,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>924, 353</value>
+    <value>484, 701</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -752,6 +791,12 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 740</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AdhocManager</value>
   </data>
   <data name="&gt;&gt;imageList.Name" xml:space="preserve">
     <value>imageList</value>
