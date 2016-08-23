@@ -71,6 +71,7 @@
             // 
             // grpSettings
             // 
+            resources.ApplyResources(this.grpSettings, "grpSettings");
             this.grpSettings.Controls.Add(this.btnConnections);
             this.grpSettings.Controls.Add(this.btnStop);
             this.grpSettings.Controls.Add(this.btnStart);
@@ -78,7 +79,6 @@
             this.grpSettings.Controls.Add(this.txtPasswd);
             this.grpSettings.Controls.Add(this.lblSSID);
             this.grpSettings.Controls.Add(this.txtSSID);
-            resources.ApplyResources(this.grpSettings, "grpSettings");
             this.grpSettings.Name = "grpSettings";
             this.grpSettings.TabStop = false;
             // 
@@ -130,16 +130,16 @@
             // 
             // grpCmdOutput
             // 
-            this.grpCmdOutput.Controls.Add(this.cmdOutput);
             resources.ApplyResources(this.grpCmdOutput, "grpCmdOutput");
+            this.grpCmdOutput.Controls.Add(this.cmdOutput);
             this.grpCmdOutput.Name = "grpCmdOutput";
             this.grpCmdOutput.TabStop = false;
             // 
             // cmdOutput
             // 
+            resources.ApplyResources(this.cmdOutput, "cmdOutput");
             this.cmdOutput.BackColor = System.Drawing.Color.Black;
             this.cmdOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.cmdOutput, "cmdOutput");
             this.cmdOutput.ForeColor = System.Drawing.Color.Lime;
             this.cmdOutput.Name = "cmdOutput";
             this.cmdOutput.ReadOnly = true;
@@ -160,8 +160,8 @@
             // 
             // grpNetworkDevices
             // 
-            this.grpNetworkDevices.Controls.Add(this.networkDevices);
             resources.ApplyResources(this.grpNetworkDevices, "grpNetworkDevices");
+            this.grpNetworkDevices.Controls.Add(this.networkDevices);
             this.grpNetworkDevices.Name = "grpNetworkDevices";
             this.grpNetworkDevices.TabStop = false;
             // 
@@ -319,9 +319,7 @@
             this.Controls.Add(this.grpCmdOutput);
             this.Controls.Add(this.grpSettings);
             this.Controls.Add(this.mainMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
-            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.grpSettings.ResumeLayout(false);

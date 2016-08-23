@@ -142,11 +142,20 @@
   <data name="showWLANInterfacesToolStripMenuItem.Text" xml:space="preserve">
     <value>WLAN Geräte anzeigen</value>
   </data>
+  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
+    <value>WLAN Treiber anzeigen</value>
+  </data>
+  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
+    <value>AdHoc Netzwerke anzeigen</value>
+  </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Datei</value>
   </data>
   <data name="mnuExit.Text" xml:space="preserve">
     <value>Beenden</value>
+  </data>
+  <data name="mnuManageConnections.Text" xml:space="preserve">
+    <value>Verbindungen verwalten...</value>
   </data>
   <data name="mnuRefreshAdapters.Text" xml:space="preserve">
     <value>Netzwerkverbindungen aktualisieren</value>
@@ -157,11 +166,11 @@
   <data name="mnuStartNetwork.Text" xml:space="preserve">
     <value>Starte Netzwerk</value>
   </data>
-  <data name="grpNetworkDevices.Text" xml:space="preserve">
-    <value>Netzwerk Verbindungen (F5 zum aktualisieren)</value>
-  </data>
   <data name="grpCmdOutput.Text" xml:space="preserve">
     <value>Ausgabe</value>
+  </data>
+  <data name="grpNetworkDevices.Text" xml:space="preserve">
+    <value>Netzwerk Verbindungen (F5 zum aktualisieren)</value>
   </data>
   <data name="grpSettings.Text" xml:space="preserve">
     <value>Einstellungen</value>
@@ -257,9 +266,6 @@
   <data name="mnuManageConnections.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  <data name="mnuManageConnections.Text" xml:space="preserve">
-    <value>Verbindungen verwalten...</value>
-  </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>282, 6</value>
   </data>
@@ -272,14 +278,8 @@
   <data name="mnuCmdsListAdhocNetworks.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
   </data>
-  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
-    <value>AdHoc Netzwerke anzeigen</value>
-  </data>
   <data name="mnuCmdsListWirelessDevices.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
-  </data>
-  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
-    <value>WLAN Treiber anzeigen</value>
   </data>
   <data name="showWLANInterfacesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
