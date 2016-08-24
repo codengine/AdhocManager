@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.Net.NetworkInformation;
 using System.Reflection;
+using System.Threading;
 using System.Windows.Forms;
 using AdhocManager.Networking;
 using AdhocManager.Properties;
@@ -17,12 +19,48 @@ namespace AdhocManager
 
         public MainForm()
         {
+            var currentLanguage = InitializeLanguage();           
             InitializeComponent();
+            SetCheckboxesForLanguage(currentLanguage);
             Text = Text + " v" + AssemblyUtils.GetMajorMinorRevisionVersion(Assembly.GetExecutingAssembly());
             InitializeTooltips();
             LoadSettings();
             _netshManager = new NetshManager();
             UpdateAdapters();
+        }
+
+        private void SetCheckboxesForLanguage(string language)
+        {
+            switch (language)
+            {
+                case "en":
+                    mnuLangDE.Checked = false;
+                    mnuLangEN.Checked = true;
+                    break;
+                case "de":
+                    mnuLangDE.Checked = true;
+                    mnuLangEN.Checked = false;
+                    break;
+            }
+        }
+
+        private static string InitializeLanguage()
+        {
+            string currentLanguage;
+
+            if (!string.IsNullOrEmpty(Settings.Language))
+            {
+                currentLanguage = Settings.Language;
+                var culture = new CultureInfo(Settings.Language);
+                Resources.Culture = culture;
+                Thread.CurrentThread.CurrentUICulture = culture;
+            }
+            else
+            {
+                currentLanguage = "en";
+            }
+
+            return currentLanguage;
         }
 
         public sealed override string Text
@@ -229,6 +267,8 @@ namespace AdhocManager
             }
         }
 
+
+
         private void btnConnections_Click(object sender, EventArgs e)
         {
             var startInfo = new ProcessStartInfo("NCPA.cpl") {UseShellExecute = true};
@@ -273,5 +313,29 @@ namespace AdhocManager
             Process.Start("https://codengine.github.io/AdhocManager/");
         }
         #endregion
+
+        private static void SetLang(string lang)
+        {
+            Settings.Language = lang;
+            Settings.Save();
+
+            if (MessageBox.Show(Resources.MainForm_Restart_Required, Resources.MainForm_Question, MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Application.Restart();
+                Environment.Exit(0);
+            }
+        }
+
+        private void mnuLangEN_Click(object sender, EventArgs e)
+        {
+            SetCheckboxesForLanguage("en");
+            SetLang("en");
+        }
+
+        private void mnuLangDE_Click(object sender, EventArgs e)
+        {
+            SetCheckboxesForLanguage("de");
+            SetLang("de");
+        }
     }
 }

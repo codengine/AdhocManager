@@ -171,4 +171,7 @@
   <data name="NetworkAdapterNode_Speed" xml:space="preserve">
     <value>Geschwindigkeit:</value>
   </data>
+  <data name="MainForm_Restart_Required" xml:space="preserve">
+    <value>Ein Programm-Neustart wird benötigt damit die Einstellungen übernommen werden. Neu starten?</value>
+  </data>
 </root>

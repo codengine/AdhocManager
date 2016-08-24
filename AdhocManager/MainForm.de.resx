@@ -127,63 +127,24 @@
   <data name="btnConnections.Text" xml:space="preserve">
     <value>Verbindungen verwalten...</value>
   </data>
+  <data name="lblPasswd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
   <data name="lblPasswd.Text" xml:space="preserve">
     <value>Passwort</value>
-  </data>
-  <data name="mnuGithubProjectPage.Text" xml:space="preserve">
-    <value>Projektseite</value>
-  </data>
-  <data name="mnuGithubIssues.Text" xml:space="preserve">
-    <value>Fehler melden</value>
-  </data>
-  <data name="commandsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Befehle</value>
-  </data>
-  <data name="showWLANInterfacesToolStripMenuItem.Text" xml:space="preserve">
-    <value>WLAN Geräte anzeigen</value>
-  </data>
-  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
-    <value>WLAN Treiber anzeigen</value>
-  </data>
-  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
-    <value>AdHoc Netzwerke anzeigen</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei</value>
-  </data>
-  <data name="mnuExit.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="mnuManageConnections.Text" xml:space="preserve">
-    <value>Verbindungen verwalten...</value>
-  </data>
-  <data name="mnuRefreshAdapters.Text" xml:space="preserve">
-    <value>Netzwerkverbindungen aktualisieren</value>
-  </data>
-  <data name="mnuStopNetwork.Text" xml:space="preserve">
-    <value>Stoppe Netzwerk</value>
-  </data>
-  <data name="mnuStartNetwork.Text" xml:space="preserve">
-    <value>Starte Netzwerk</value>
-  </data>
-  <data name="grpCmdOutput.Text" xml:space="preserve">
-    <value>Ausgabe</value>
-  </data>
-  <data name="grpNetworkDevices.Text" xml:space="preserve">
-    <value>Netzwerk Verbindungen (F5 zum aktualisieren)</value>
   </data>
   <data name="grpSettings.Text" xml:space="preserve">
     <value>Einstellungen</value>
   </data>
-  <data name="lblPasswd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
+  <data name="grpCmdOutput.Text" xml:space="preserve">
+    <value>Ausgabe</value>
   </data>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        DwAAAk1TRnQBSQFMAgEBCQEAARABAQEQAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        DwAAAk1TRnQBSQFMAgEBCQEAATABAQEwAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -251,11 +212,20 @@
         AYABAQL/AgABgAEDAcABAwL/AT8B/wGAAQMB+AEfBP8BgAEDBv8BgAEDAv8L
 </value>
   </data>
+  <data name="grpNetworkDevices.Text" xml:space="preserve">
+    <value>Netzwerk Verbindungen (F5 zum aktualisieren)</value>
+  </data>
   <data name="mnuStartNetwork.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
+  <data name="mnuStartNetwork.Text" xml:space="preserve">
+    <value>Starte Netzwerk</value>
+  </data>
   <data name="mnuStopNetwork.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
+  </data>
+  <data name="mnuStopNetwork.Text" xml:space="preserve">
+    <value>Stoppe Netzwerk</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>282, 6</value>
@@ -263,8 +233,14 @@
   <data name="mnuRefreshAdapters.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
+  <data name="mnuRefreshAdapters.Text" xml:space="preserve">
+    <value>Netzwerkverbindungen aktualisieren</value>
+  </data>
   <data name="mnuManageConnections.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
+  </data>
+  <data name="mnuManageConnections.Text" xml:space="preserve">
+    <value>Verbindungen verwalten...</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>282, 6</value>
@@ -272,29 +248,77 @@
   <data name="mnuExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 22</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>Datei</value>
   </data>
   <data name="mnuCmdsListAdhocNetworks.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
   </data>
+  <data name="mnuCmdsListAdhocNetworks.Text" xml:space="preserve">
+    <value>AdHoc Netzwerke anzeigen</value>
+  </data>
   <data name="mnuCmdsListWirelessDevices.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
+  </data>
+  <data name="mnuCmdsListWirelessDevices.Text" xml:space="preserve">
+    <value>WLAN Treiber anzeigen</value>
   </data>
   <data name="showWLANInterfacesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
   </data>
-  <data name="commandsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="showWLANInterfacesToolStripMenuItem.Text" xml:space="preserve">
+    <value>WLAN Geräte anzeigen</value>
+  </data>
+  <data name="mnuCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 20</value>
+  </data>
+  <data name="mnuCommands.Text" xml:space="preserve">
+    <value>Befehle</value>
+  </data>
+  <data name="mnuLangDE.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="mnuLangEN.Text" xml:space="preserve">
+    <value>Englisch</value>
+  </data>
+  <data name="mnuLang.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="mnuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="mnuOptions.Text" xml:space="preserve">
+    <value>Optionen</value>
   </data>
   <data name="mnuGithubIssues.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
+  <data name="mnuGithubIssues.Text" xml:space="preserve">
+    <value>Fehler melden</value>
+  </data>
   <data name="mnuGithubProjectPage.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
+  <data name="mnuGithubProjectPage.Text" xml:space="preserve">
+    <value>Projektseite</value>
+  </data>
   <data name="mnuGithubWiki.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
+  </data>
+  <data name="mnuGithub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 6</value>
+  </data>
+  <data name="mnuWebsite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

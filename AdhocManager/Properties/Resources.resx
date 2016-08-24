@@ -171,4 +171,7 @@
   <data name="NetworkAdapterNode_Speed" xml:space="preserve">
     <value>Speed:</value>
   </data>
+  <data name="MainForm_Restart_Required" xml:space="preserve">
+    <value>An application restart is required for the settings to take effekt. Restart?</value>
+  </data>
 </root>

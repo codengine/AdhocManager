@@ -16,6 +16,12 @@ namespace AdhocManager
             set { Settings.Default.SSID = value; }
         }
 
+        public string Language
+        {
+            get { return Settings.Default.Language; }
+            set { Settings.Default.Language = value; }
+        }
+
         public void Save()
         {
             Settings.Default.Save();
