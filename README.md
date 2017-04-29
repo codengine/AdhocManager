@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/release/codengine/AdhocManager.svg)](https://github.com/codengine/AdhocManager/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/codengine/AdhocManager/total.svg)](https://github.com/codengine/AdhocManager/releases/latest)
+
 ## Adhoc Manager
 The Adhoc Manager allows you to configure and start your Hosted/Adhoc Network as simple as possible. The need for it comes as there is that Microsoft removed th GUI in newer Windows versions.
 
