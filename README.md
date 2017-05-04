@@ -18,5 +18,14 @@ The Adhoc Manager allows you to configure and start your Hosted/Adhoc Network as
 ### Troubleshooting
 * If starting the network fails with a message like "Invalid State", try to disable and re-enable your WiFi Adapter
 
+### Changelog
+#### 1.0.1 (2017-05-04)
+- Improvement: New Design / Layout
+- Feature: Language Switcher
+- Feature: German Translation
+
+#### 1.0.0 (2016-08-11)
+- Initial Version
+
 ### License
 The Adhoc Manager is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
