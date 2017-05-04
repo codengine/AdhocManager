@@ -5,6 +5,7 @@ The Adhoc Manager allows you to configure and start your Hosted/Adhoc Network as
 
 ### Requirements
 - Windows XP/Vista/7/10 (32/64 Bit)
+- .NET Framework 4.5
 - WiFi Adapter
 - An upstream connection to share (Dial-Up, Mobile, Ethernet etc.)
 
