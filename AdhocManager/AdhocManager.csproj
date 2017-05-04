@@ -152,7 +152,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1470956426_wifi_Symbol.ico" />
     <Content Include="1470956579_wifi_Symbol.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

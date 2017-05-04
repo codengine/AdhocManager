@@ -16,7 +16,7 @@ namespace AdhocManager
             {
                 version.Major.ToString(),
                 version.Minor.ToString(),
-                version.Revision.ToString()
+                version.Build.ToString()
             };
 
             return string.Join(".", parts);
